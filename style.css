@@ -1,0 +1,131 @@
+body{
+    background-color: #6989aa;
+    display: flex;
+    justify-content: center;
+}
+
+.heading{
+    color: white;
+    background-color:#8566aa ;
+    padding:6px 0 2px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.main_container{
+    /* border:2px solid black; */
+    width:20rem;
+    height:30rem;
+    color: black;
+    background-color: white;
+   
+}
+.enter_data{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 10px;
+
+}
+input{
+    text-align: center;
+    height:2rem;
+    border:none;
+    border-bottom:2px solid #8566aa;
+    font-size: 20px;
+    font-weight: 500;
+    width:80%;
+    background:transparent; 
+     outline: none;
+     margin-left:20px;
+    
+
+}
+.buttons{
+ 
+   margin-left: 30px;
+}
+#add_button{
+    background-color: #8566aa;
+    margin-top: 10px;
+    color: #fff;
+      font-size:15px;
+      border: none;
+      outline: none;
+    width:4rem;
+    height:2rem;
+      box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    margin-left: 10px;
+  }
+#remove{
+   
+        background-color: #8566aa;
+        margin-top: 10px;
+        color: #fff;
+          font-size:15px;
+          border: none;
+          outline: none;
+          width:6rem;
+          height:2rem;
+          margin-left: 10px;
+          box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+        margin-left: 10px;
+      
+}
+#to_do_list_container{
+    margin-left:30px;
+    margin-top: 10px;
+    font-size:20px;
+    color: black;
+    
+   
+
+}
+#list{
+  color:#8566aa;
+}
+
+   .del{
+    background-color:rgb(242, 60, 60);
+    color: #fff;
+      font-size:8px;
+      border: none;
+      outline: none;
+     width:1.5rem;
+     height:1.5rem;
+      box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+     margin: 5px;
+     padding: 5px;
+     border-radius: 50%;
+     
+    
+   }
+
+    .edit{
+     
+      background-color: yellowgreen;
+      color: #fff;
+        font-size:8px;
+        border: none;
+        outline: none;
+       width:1.5rem;
+       height:1.5rem;
+        box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+        border-radius: 50%;
+    
+    }
+    .save{
+     
+      background-color: yellowgreen;
+      color: #fff;
+        font-size:8px;
+        border: none;
+        outline: none;
+       width:1.75rem;
+       height:1.5rem;
+        box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+        border-radius: 50%;
+        margin: 5px;
+    
+    }
+   
